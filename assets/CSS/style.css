@@ -1,0 +1,82 @@
+.header {
+  height: 90px;
+  z-index: 9;
+}
+
+.search > input {
+  outline: none;
+  border: 1px solid rgba(128, 128, 128, 0.568);
+}
+.search > i {
+  width: 60px;
+  top: 1%;
+  height: 65px;
+  left: 51.3%;
+}
+
+.dropMenu {
+  width: 450px;
+  top: 55px;
+  right: 20%;
+  box-shadow: 0 0 10px 5px rgb(218, 214, 214);
+}
+
+.sidebar {
+  top: 90px;
+}
+.sidebar .art {
+  overflow-y: scroll;
+  left: 0;
+}
+.sidebar .leftMenuSide {
+  height: 100vh;
+}
+.sidebar .leftMenuSide ul > li {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(51, 47, 47);
+  transition: 0.4s;
+  cursor: pointer;
+}
+.sidebar .leftMenuSide ul > li:hover {
+  color: rgb(69, 168, 243);
+}
+.sidebar .leftMenuSide ul > li > ul > li {
+  font-size: 20px;
+}
+.sidebar .leftMenuSide ul .hide {
+  opacity: 0;
+}
+.sidebar .rightSide {
+  position: absolute;
+  left: 25%;
+}
+.sidebar .rightSide > .testScroll {
+  width: 100%;
+}
+.sidebar .rightSide > .testScroll table > thead.dNone {
+  opacity: 0;
+}
+
+.bodyLogin {
+  background-color: rgb(229, 229, 229);
+}
+
+.login {
+  width: 600px;
+}
+.login .inputLogin {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(81, 75, 75, 0.819);
+}
+.login .inputLogin > input {
+  outline: none;
+  border: 1px solid rgba(198, 196, 196, 0.662);
+  height: 50px;
+}
+.login .remmberLogin {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(81, 75, 75, 0.819);
+}/*# sourceMappingURL=style.css.map */

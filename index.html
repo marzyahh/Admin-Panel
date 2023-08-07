@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./assets/CSS/style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="header w-100 bg-light d-flex position-fixed">
+          <div
+            class="logo d-flex justify-content-center align-items-center w-25"
+          >
+            <img src="./assets/CSS/img/logo (1).png" class="w-75" alt="" />
+          </div>
+          <div
+            class="search d-flex justify-content-center align-items-center w-50"
+          >
+            <input
+              type="text"
+              class="w-75 h-75 ps-4 border-none rounded h5 position-relative"
+              placeholder="Search for datas & reports..."
+            />
+            <i
+              class="bi bi-search bg-primary rounded d-flex justify-content-center align-items-center h4 mt-2 position-absolute"
+            ></i>
+          </div>
+          <div class="icon w-25 d-flex justify-content-end align-items-center">
+            <i
+              class="bi bi-chat-left-dots-fill text-secondary h3 ps-4 mt-1"
+            ></i>
+            <i class="bi bi-envelope-fill h3 text-secondary ps-4"></i>
+            <i class="bi bi-bell-fill h3 text-secondary ps-4"></i>
+          </div>
+          <div
+            class="profile d-flex align-items-center justify-content-center w-25"
+          >
+            <img
+              src="./assets/CSS/img/mePic.png"
+              class="h-75 w-25 object-fit-cover rounded ps-4"
+              alt=""
+            />
+            <h4 class="ps-3">Maryzah Hoseini</h4>
+            <i class="bi bi-chevron-down ps-2 dropProf position-relative"> </i>
+          </div>
+        </div>
+        <aside
+          class="sidebar w-100 border position-absolute d-flex position-absolute"
+        >
+          <article class="art w-25 border border-danger position-fixed">
+            <div class="leftMenuSide w-100 border">
+              <ul class="list-unstyled pt-4 mt-4">
+                <li class="pt-3 pb-3 ps-5">
+                  <i class="bi bi-speedometer2 pe-4 h5"></i>Dashboard
+                </li>
+                <li class="pt-3 pb-3 ps-5">
+                  <i class="bi bi-bar-chart-line pe-4 h5"></i>Charts
+                </li>
+                <li class="pt-3 pb-3 ps-5">
+                  <i class="bi bi-table pe-4 h5"></i> Tables
+                </li>
+                <li class="pt-3 pb-3 ps-5">
+                  <i class="bi bi-check-square pe-4 h5"></i>Forms
+                </li>
+                <li class="pt-3 pb-3 ps-5">
+                  <i class="bi bi-calendar3 pe-4 h5"></i>Calendar
+                </li>
+                <li class="pt-3 pb-3 ps-5">
+                  <i class="bi bi-geo-alt-fill pe-4 h5"></i>Maps
+                </li>
+                <li class="pt-3 pb-3 ps-5">
+                  <i class="bi bi-files pe-4 h5"></i>Pages
+                </li>
+                <li class="pt-3 pb-3 ps-5">
+                  <i class="bi bi-tv pe-4 h5"></i>UI Elements
+                </li>
+                <li class="hide">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                    velit temporibus iure deleniti esse repudiandae amet porro
+                    animi nobis consectetur.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <div class="rightSide w-75 border">
+            <!-- <div class="testScroll"> -->
+              <table onclick="show()" class="table mt-5 w-75 ms-5">
+                <thead>
+                  <tr>
+                    <th scope="col">#id</th>
+                    <th scope="col">userName</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Password</th>
+                  </tr>
+                </thead>
+              </table>
+            <!-- </div> -->
+          </div>
+        </aside>
+      </div>
+    </div>
+  </body>
+  <script src="./assets/js/main.js"></script>
+
+</html>
